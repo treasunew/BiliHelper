@@ -16,6 +16,7 @@ A tool to upgrade bilibili's level
 ## 配置文件
 ### TaskConfig
 1. 部分变量介绍
+
 | 变量名 | 参数 | 描述 |
 |:----:| :----: | :----: |
 | biliCookies | COOKIE | 通过浏览器获取即可 |
@@ -35,6 +36,7 @@ A tool to upgrade bilibili's level
 | upLive | 未知 | 我也不知道是什么 |
 | chargeForLove | UID | 充电的对象UID |
 | chargeDay | 28 | 充电的时间 |
+
 2. 变量解释
   - biliCookies  自己通过浏览器的开发者工具获取，将一整段COOKIE放进去即可
   - selectLike 我也不知道是什么
@@ -45,6 +47,7 @@ A tool to upgrade bilibili's level
   - silver2Coin 银瓜子兑换硬币
   - chargeForLove 充电的对象，自己填UID
   - chargeDay 每月充电的时间，一般都是月末那一天
+  
 ### pushConfig
 | 变量名 | 参数 | 描述 |
 |:----:| :----: | :----: |
