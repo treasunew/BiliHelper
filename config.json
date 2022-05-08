@@ -1,0 +1,44 @@
+{
+  "biliVerify": {
+    "biliCookies": ""
+  },
+  "taskConfig": {
+    "skipDailyTask": false,
+    "matchGame": false,
+    "showHandModel": false,
+    "predictNumberOfCoins": 1,
+    "minimumNumberOfCoins": 100,
+    "taskIntervalTime": 20,
+    "numberOfCoins": 5,
+    "coinAddPriority": 1,
+    "reserveCoins": 10,
+    "selectLike": 0,
+    "monthEndAutoCharge": true,
+    "giveGift": true,
+    "silver2Coin": true,
+    "upLive": "0",
+    "chargeForLove": "360270553",
+    "chargeDay": 28,
+    "devicePlatform": "ios",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36"
+  },
+  "pushConfig": {
+    "SC_KEY": "",
+    "SCT_KEY": "",
+    "TG_BOT_TOKEN": "",
+    "TG_USER_ID": "",
+    "TG_USE_CUSTOM_URL": false,
+    "DING_TALK_URL": "",
+    "DING_TALK_SECRET": "",
+    "PUSH_PLUS_TOKEN": "",
+    "WE_COM_GROUP_TOKEN": "",
+    "WE_COM_APP_CORPID": "",
+    "WE_COM_APP_CORP_SECRET": "",
+    "WE_COM_APP_AGENT_ID": 1000001,
+    "WE_COM_APP_MEDIA_ID": "",
+    "WE_COM_APP_TO_USER": "",
+    "PROXY_HTTP_HOST": "",
+    "PROXY_SOCKET_HOST": "",
+    "PROXY_PORT": 0
+  }
+}
