@@ -47,7 +47,7 @@ A tool to upgrade bilibili's level
   - silver2Coin 银瓜子兑换硬币
   - chargeForLove 充电的对象，自己填UID
   - chargeDay 每月充电的时间，一般都是月末那一天
-  
+
 ### pushConfig
 | 变量名 | 参数 | 描述 |
 |:----:| :----: | :----: |
