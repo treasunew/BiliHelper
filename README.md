@@ -2,17 +2,18 @@
 ![visitors](https://visitor-badge.glitch.me/badge?page_id=fantingsheng.fantingsheng&left_color=green&right_color=red)
 # BiliHelper
 A tool to upgrade bilibili's level  
-本项目是之前大佬写的，但是后面删库跑路了，我刚好下载下来了，所以再发一下，给大家使用
+本项目是之前大佬写的，但是后面删库跑路了  
+我刚好下载下来了，所以发一下，给大家使用  
 偶尔会发一些好玩的，TG频道[TelegramGroup](https://t.me/PorterTree)
 ## 教程
 1. 首先把项目下载下来，然后解压会得到三个文件  
-  - Bili.sh  
-  - config.json  
-  - [^java包]: BILIBILI-HELPER-v2.1.0.jar
+    - Bili.sh  
+    - config.json  
+    - BILIBILI-HELPER-v2.1.0.jar
 2. 打开我们的sftp工具，将三个文件上传到/root/ql/scripts目录下
 3. 然后打开青龙面板，点击任务管理加入一个任务
-  - 命令: task Bili.sh
-  - cron: 0 12 * * * 自己随意更改
+    - 命令: task Bili.sh
+    - cron: 0 12 * * * 自己随意更改
 ## 配置文件
 ### TaskConfig
 1. 部分变量介绍
@@ -38,15 +39,15 @@ A tool to upgrade bilibili's level
 | chargeDay | 28 | 充电的时间 |
 
 2. 变量解释
-  - biliCookies  自己通过浏览器的开发者工具获取，将一整段COOKIE放进去即可
-  - selectLike 我也不知道是什么
-  - upLive 我也不知道是什么
-  - skipDailyTask 跳过每日任务，自己选择
-  - monthEndAutoCharge 月末自动充电
-  - giveGift 送礼物
-  - silver2Coin 银瓜子兑换硬币
-  - chargeForLove 充电的对象，自己填UID
-  - chargeDay 每月充电的时间，一般都是月末那一天
+    - biliCookies  自己通过浏览器的开发者工具获取，将一整段COOKIE放进去即可
+    - selectLike 我也不知道是什么
+    - upLive 我也不知道是什么
+    - skipDailyTask 跳过每日任务，自己选择
+    - monthEndAutoCharge 月末自动充电
+    - giveGift 送礼物
+    - silver2Coin 银瓜子兑换硬币
+    - chargeForLove 充电的对象，自己填UID
+    - chargeDay 每月充电的时间，一般都是月末那一天
 
 ### pushConfig
 | 变量名 | 参数 | 描述 |
